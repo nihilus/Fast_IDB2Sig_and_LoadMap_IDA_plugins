@@ -1,0 +1,9 @@
+/* -dConfiguration= ... none provided  */
+-D_WINDLL                      //  21: ConfigurationType = "2"
+-D_MBCS                        //  22: CharacterSet = "2"
+-i..\..\include                //  26: AdditionalIncludeDirectories = "..\..\include"
+-DWIN32;NDEBUG;__NT__;__IDP__;MAXSTR=1024;_WINDOWS;_USRDLL;LOADMAP_EXPORTS
+                               //  27: PreprocessorDefinitions = "WIN32;NDEBUG;__NT__;__IDP__;MAXSTR=1024;_WINDOWS;_USRDLL;LOADMAP_EXPORTS"
+-DNDEBUG                       //  30: RuntimeLibrary = "5"
+.\LoadMap.cpp                  // 125: RelativePath = ".\LoadMap.cpp"
+.\stdafx.cpp                   // 128: RelativePath = ".\stdafx.cpp"

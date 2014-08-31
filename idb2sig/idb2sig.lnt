@@ -1,0 +1,8 @@
+/* -dConfiguration= ... none provided  */
+-D_WINDLL                      //  15: ConfigurationType = "2"
+-D_MBCS                        //  18: CharacterSet = "2"
+-i..\..\include                //  22: AdditionalIncludeDirectories = "..\..\include"
+-DNDEBUG;__NT__;__IDP__;MAXSTR=1024;WIN32;_WINDOWS;_USRDLL
+                               //  23: PreprocessorDefinitions = "_DEBUG;__NT__;__IDP__;MAXSTR=1024;WIN32;_WINDOWS;_USRDLL"
+-D_MT;NDEBUG;_DLL              //  25: RuntimeLibrary = "3"
+idb2sig.cpp                    // 157: RelativePath = "idb2sig.cpp"
