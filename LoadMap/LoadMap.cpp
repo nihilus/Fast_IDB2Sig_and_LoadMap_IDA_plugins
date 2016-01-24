@@ -295,8 +295,8 @@ static void idaapi run(int /* arg */)
 
     if ('\0' == mapFileName[0])
     {
-        // First run
-        strncpy(mapFileName, get_input_file_path(), sizeof(mapFileName));
+        // First run (after all, mapFileName is static)
+        get_input_file_path(mapFileName, sizeof(mapFileName));
         WIN32CHECK(PathRenameExtension(mapFileName, ".map"));
     }
 
